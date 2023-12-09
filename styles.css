@@ -1,0 +1,523 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url("pic/original-21f43cac5894cb3a52be1817d4ae065d.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.nav-container {
+    height: 55px;
+}
+
+.nav-bar {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo {
+    width: 25%;
+    color: #396AC7;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: end;
+
+}
+
+.nav {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+*>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav>a {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 10px;
+
+}
+
+.nav>a:hover {
+    background-color: #396AC7;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+}
+
+.cv {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    align-items: center;
+}
+
+.cv>button {
+    border: 2px solid #396AC7;
+    height: 45px;
+    width: 120px;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: bold;
+
+}
+
+.cv>button:hover {
+    background-color: #396AC7;
+    color: white;
+}
+
+.about-container {}
+
+.about {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    font-size: 18px;
+
+}
+
+.circle {
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid #396AC7;
+    border-radius: 300px;
+    color: #396AC7;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 40px;
+
+}
+
+.profile div:nth-child(2),
+.skill div:nth-child(2),
+.portfolio div:nth-child(2),
+.contact-dome div:nth-child(2) {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.profile span,
+.skill span,
+.portfolio span,
+.contact-dome span {
+    color: #396AC7;
+}
+
+.picture {
+    display: flex;
+    width: 50%;
+    background-color: ;
+
+}
+
+.picture div:first-child {
+    display: flex;
+    width: 100%;
+    padding: 0;
+
+}
+
+.picture img {
+    max-width: 425px;
+
+}
+
+.picture>div {
+    block-size: auto;
+    writing-mode: vertical-lr;
+    color: #396AC7;
+    padding: 50px 50px;
+}
+
+.side img {
+    width: 15px;
+    margin: 5px;
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.contact>button {
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 6px;
+    background-color: #396AC7;
+    font-weight: bold;
+    color: white;
+    margin-right: 20px;
+}
+
+.u-profile {
+    height: 100px;
+}
+
+.under-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+
+.underp {
+    width: 80%;
+    display: flex;
+}
+
+.underp>div {
+    height: 50px;
+    width: 100%;
+    border-right: 1px solid #396AC7;
+    font-weight: 600;
+
+}
+
+.underp>div>div:first-child {
+    color: #396AC7;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.underp>div:nth-child(2) {
+    margin-left: 80px;
+}
+
+
+
+.underp>div:nth-child(3) {
+    margin-left: 80px;
+    border-right: none;
+}
+
+.skill-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.myskill {
+    display: flex;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.skil {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+
+.html-skill,
+.css-skill {
+    width: 50%;
+}
+
+.css-skill {
+    margin-top: 100px;
+}
+
+.html-skill>img,
+.css-skill>img {
+    margin: 5px;
+    width: 25px;
+}
+
+.html-skill div:nth-of-type(1),
+.css-skill div:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.portfolio-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.myport {
+    display: flex;
+    margin-top: 100px;
+    width: 80%;
+
+}
+
+.portfolio {
+    width: 35%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    width: 65%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.contact-form {
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 650px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-dome {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conlayout {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.conform {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.center-cir {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 100px;
+}
+
+
+.left img {
+    width: 50px;
+    border-radius: 12px;
+}
+
+.right {
+    width: 70%;
+}
+
+.right input,
+textarea {
+    background-color: transparent;
+    width: 40%;
+    height: 50px;
+    border-radius: 6px;
+    border: rgb(238, 238, 238) solid 1px;
+    margin-top: 25px;
+    margin-right: 15px;
+    text-align: start;
+    color: rgb(238, 238, 238)
+}
+
+textarea {
+    width: 83%;
+    height: 50%;
+}
+
+
+.col {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
+}
+
+.col>div {
+    margin-left: 20px;
+}
+
+.col div:first-child {
+
+    color: rgb(153, 144, 144);
+}
+
+.col>div div:nth-child(2) {
+    font-weight: 600;
+
+}
+
+.right button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #396AC7;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+}
+
+.submit-but {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.footer-container {
+
+    width: 80%;
+    height: 40px;
+    border-top: 1px solid rgb(199, 193, 193);
+
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.footer img {
+    width: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+}
